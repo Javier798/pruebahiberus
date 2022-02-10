@@ -1,0 +1,29 @@
+uuid: f8275d0e-9d23-4e7e-bd8b-9fe975d4a89e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_autor
+    - node.type.videos
+id: node.videos.field_autor
+field_name: field_autor
+entity_type: node
+bundle: videos
+label: autor
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    filter:
+      type: _none
+    include_anonymous: true
+field_type: entity_reference

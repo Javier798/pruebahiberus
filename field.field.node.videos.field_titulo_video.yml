@@ -1,0 +1,21 @@
+uuid: 89068e0c-1555-4db3-9533-4103571c52a0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titulo_video
+    - node.type.videos
+  module:
+    - text
+id: node.videos.field_titulo_video
+field_name: field_titulo_video
+entity_type: node
+bundle: videos
+label: 'Titulo del video'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

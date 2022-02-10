@@ -1,0 +1,12 @@
+uuid: 15345b6b-3230-400f-a392-14783fa12a7d
+langcode: es
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: 71CSAr_LNPcgu6D6jI4INl1KATkahmeyUFBETAWya8g
+id: user.compact
+label: Compacto
+targetEntityType: user
+cache: true

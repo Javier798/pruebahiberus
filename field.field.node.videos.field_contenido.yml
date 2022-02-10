@@ -1,0 +1,21 @@
+uuid: cca20945-1149-4104-acf0-079fb88bdffe
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contenido
+    - node.type.videos
+  module:
+    - text
+id: node.videos.field_contenido
+field_name: field_contenido
+entity_type: node
+bundle: videos
+label: contenido
+description: 'Que contenidos se van a aprender'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

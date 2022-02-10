@@ -1,0 +1,29 @@
+uuid: 4c00485f-733c-406f-b4ec-fbac23b1fdb7
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tema
+    - node.type.videos
+    - taxonomy.vocabulary.temas_de_video
+id: node.videos.field_tema
+field_name: field_tema
+entity_type: node
+bundle: videos
+label: tema
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      temas_de_video: temas_de_video
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

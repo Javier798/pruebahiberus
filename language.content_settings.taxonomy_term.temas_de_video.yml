@@ -1,0 +1,11 @@
+uuid: b7d53d83-b54a-47d8-89d4-71b7d09f7fdd
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.temas_de_video
+id: taxonomy_term.temas_de_video
+target_entity_type_id: taxonomy_term
+target_bundle: temas_de_video
+default_langcode: site_default
+language_alterable: false

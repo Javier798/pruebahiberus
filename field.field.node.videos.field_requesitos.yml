@@ -1,0 +1,21 @@
+uuid: fefe2bd3-0ce0-42a5-b2ac-9f15ec47d99f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_requesitos
+    - node.type.videos
+  module:
+    - text
+id: node.videos.field_requesitos
+field_name: field_requesitos
+entity_type: node
+bundle: videos
+label: requesitos
+description: 'Requisitos para el usuario'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

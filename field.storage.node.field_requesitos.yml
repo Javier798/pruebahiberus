@@ -1,0 +1,20 @@
+uuid: 08e14961-1442-49d9-8e6b-d4fd5817e579
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_requesitos
+field_name: field_requesitos
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

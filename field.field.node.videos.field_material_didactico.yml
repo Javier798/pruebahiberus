@@ -1,0 +1,29 @@
+uuid: 04097729-2e17-4941-a6b2-8171583b55d2
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_material_didactico
+    - media.type.document
+    - node.type.videos
+id: node.videos.field_material_didactico
+field_name: field_material_didactico
+entity_type: node
+bundle: videos
+label: 'Material didactico'
+description: 'Manuales o cualquier archivo que pueda complementar al video'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      document: document
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

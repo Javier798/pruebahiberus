@@ -1,0 +1,8 @@
+uuid: a0d3fb24-23a3-48b5-a7d5-f7d5a7d145e2
+langcode: es
+status: true
+dependencies: {  }
+name: Categorias
+vid: categorias
+description: 'Categoria del video'
+weight: 0

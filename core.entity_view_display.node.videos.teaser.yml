@@ -1,0 +1,51 @@
+uuid: 58136e66-c54b-4ba3-a144-fadaca3e87c1
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.videos.body
+    - field.field.node.videos.field_autor
+    - field.field.node.videos.field_categoria
+    - field.field.node.videos.field_comentarios
+    - field.field.node.videos.field_contenido
+    - field.field.node.videos.field_material_didactico
+    - field.field.node.videos.field_que_aprenderas
+    - field.field.node.videos.field_requesitos
+    - field.field.node.videos.field_tema
+    - field.field.node.videos.field_titulo_video
+    - field.field.node.videos.field_video
+    - node.type.videos
+  module:
+    - text
+    - user
+id: node.videos.teaser
+targetEntityType: node
+bundle: videos
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_autor: true
+  field_categoria: true
+  field_comentarios: true
+  field_contenido: true
+  field_material_didactico: true
+  field_que_aprenderas: true
+  field_requesitos: true
+  field_tema: true
+  field_titulo_video: true
+  field_video: true
+  langcode: true

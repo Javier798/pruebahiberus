@@ -1,0 +1,104 @@
+taxonomies:
+  categorias:
+    -
+      vid: categorias
+      tid: '7'
+      langcode: es
+      name: Drupal
+      description__value: "<p>Formación sobre drupal</p>\r\n"
+      description__format: basic_html
+      weight: '0'
+      parent: '0'
+      uuid: 78067b54-90ca-40ad-be77-07ee944c9e6b
+    -
+      vid: categorias
+      tid: '9'
+      langcode: es
+      name: Java
+      description__value: "<p>Formación sobre java</p>\r\n"
+      description__format: basic_html
+      weight: '0'
+      parent: '0'
+      uuid: 94cb9447-1fbe-4537-bf60-b92eb7cf82aa
+    -
+      vid: categorias
+      tid: '8'
+      langcode: es
+      name: Joomla
+      description__value: "<p>Formación sobre joomla</p>\r\n"
+      description__format: basic_html
+      weight: '0'
+      parent: '0'
+      uuid: 02811196-1728-4d21-abff-57b837a9a850
+    -
+      vid: categorias
+      tid: '10'
+      langcode: es
+      name: Php
+      description__value: "<p>Formación sobre php</p>\r\n"
+      description__format: basic_html
+      weight: '0'
+      parent: '0'
+      uuid: 2af4f565-05dd-48cb-9965-de49e6996ab5
+    -
+      vid: categorias
+      tid: '6'
+      langcode: es
+      name: Wordpress
+      description__value: "<p>Formación sobre wordpress</p>\r\n"
+      description__format: basic_html
+      weight: '0'
+      parent: '0'
+      uuid: 78da4004-a4c5-4286-ae85-d3be0fa39231
+  tags: {  }
+  temas_de_video:
+    -
+      vid: temas_de_video
+      tid: '3'
+      langcode: es
+      name: 'Como crear bloques'
+      description__value: "<p>Como crear bloques de contenido</p>\r\n"
+      description__format: basic_html
+      weight: '0'
+      parent: '0'
+      uuid: cf12140c-61a1-4e11-863a-34cf5283a48c
+    -
+      vid: temas_de_video
+      tid: '5'
+      langcode: es
+      name: 'Como crear usuarios'
+      description__value: "<p>Como crear usuarios</p>\r\n"
+      description__format: basic_html
+      weight: '0'
+      parent: '0'
+      uuid: 40cdfc4a-2872-4f41-8f62-63b9b2db2136
+    -
+      vid: temas_de_video
+      tid: '1'
+      langcode: es
+      name: 'Creación de menus'
+      description__value: "<p>Como crear menus</p>\r\n"
+      description__format: basic_html
+      weight: '0'
+      parent: '0'
+      uuid: c9c63fbb-28c2-4b2c-8589-38c1582b8018
+    -
+      vid: temas_de_video
+      tid: '4'
+      langcode: es
+      name: 'Creacion de tipos de contenido'
+      description__value: "<p>Como crear nuevos tipos de contenido</p>\r\n"
+      description__format: basic_html
+      weight: '0'
+      parent: '0'
+      uuid: 6d877a5a-d224-44c5-9e47-4a8129693e19
+    -
+      vid: temas_de_video
+      tid: '2'
+      langcode: es
+      name: 'Creacion de vistas'
+      description__value: "<p>Como crear vistas</p>\r\n"
+      description__format: basic_html
+      weight: '0'
+      parent: '0'
+      uuid: 1727964e-1bdc-426c-8e97-dccd37f0db27

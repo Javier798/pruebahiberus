@@ -1,0 +1,8 @@
+uuid: 2bc2295e-2921-454d-aae5-0bfc1ec92684
+langcode: es
+status: true
+dependencies: {  }
+name: 'Temas de video'
+vid: temas_de_video
+description: 'El tema del que trata el video'
+weight: 0

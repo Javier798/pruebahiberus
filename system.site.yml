@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: es
+uuid: cb712fd5-027d-4471-a7cc-f3fda2708455
+name: 'Hiberus Formación'
+mail: fjmarin@hiberus.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: es
